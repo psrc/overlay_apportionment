@@ -1,0 +1,13 @@
+server: AWS-Prod-SQL\Sockeye
+
+elmer_geo_database: ElmerGeo
+
+version: "'sde.DEFAULT'"
+
+elmer_conn_string: DRIVER={ODBC Driver 17 for SQL Server}; SERVER=AWS-PROD-SQL\Sockeye; DATABASE=Elmer; trusted_connection=yes
+
+years: {"2010": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]}
+
+overlay_path: T:/2022September/Stefan/hct_shapefiles/station_rgc_buff_merged.shp
+
+output_file: T:/2022October/Stefan/transit_buffer_ofm.csv
